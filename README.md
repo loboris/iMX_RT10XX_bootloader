@@ -54,6 +54,11 @@ The firmware must be linked at start address equal or higher than `0x60010000`.
 | `30` | Not used, reserved for future use |
 | `31` | Not used, reserved for future use |
 
-_Notes_:
+_Notes_:<br>
+The bootloader was developed and compiled with Keil (µVision® IDE).<br>
+Currently I don'have time to transfer it to gcc/makefile environment.<br>
+If anyone is interested in doing it, the Pull request is welcomed.<br>
 
-*More information will be added soon*
+Prebuilt firmwares are available in the **firmwares** directory.<br>
+
+*More information will be added soon...*
