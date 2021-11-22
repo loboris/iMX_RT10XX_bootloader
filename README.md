@@ -14,7 +14,7 @@ The firmware must be linked at start address equal or higher than `0x60010000`.
 * LED indication of operation state
 * very secure, two copies of the boot configuratin sectors (main and backup) are provided, if the main is corrupted it is restored from backup
 * the firmware (user application) is protected and verified on boot by 32-byte **SHA256** hash
-* very fast communication with the loader program (~500 MB/sec),<br>Flash program opperation is, of course, slower and depends on how much sectors must be erased
+* very fast communication with the loader program (~500 KB/sec),<br>Flash program opperation is, of course, slower and depends on how much sectors must be erased
 * this bootloader was build for use with **MicroPython** firmwares, but any firmware can be used, as long as it was correctly linked for start address of `0x60010000` or higher
 * provided (Python) loader program features:
   * programming the firmware to the specific Flash address (taken from the firmware file IVT section)
